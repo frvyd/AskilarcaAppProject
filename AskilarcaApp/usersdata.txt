@@ -1,0 +1,12 @@
+ruveyda,akhan,rvydakhan,130622
+taner,çevik,tanercevik,nisantasiedu
+Gül Şeyma,Turan,gulseyma,gulseymapass
+mustafa osman,dilmaç,dilmacc,qdilmac
+esra,üge,esraüge,esrapass
+Ruveyda,Akhan,rvyd,123
+dilek,memiş,dilek828,230500
+Mustafa Osman,Dilmaç,testhesabı,55EE55ee
+Nazlı,Yıldırım,nazlısaadet,3003
+test,test,ttest,test123
+Ayşe,Akhan,ayseakhan,123
+ruveyda,akhan,rvyd,333

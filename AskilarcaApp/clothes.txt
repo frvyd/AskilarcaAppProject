@@ -1,0 +1,14 @@
+aksesuar,kar tanesi kolye,gümüş,gümüş,standart
+aksesuar,yüzük,siyah,çelik,ayarlanabilir
+aksesuar,kelebek küpe,rose gold,gümüş,standart
+aksesuar,bere,kiremit,akrilik,oversize
+alt,kargo pantolon,kahverengi,paraşüt kumaş,XL
+alt,pileli etek,siyah,suni deri,M
+alt,kumaş pantolon,siyah,polyester,L
+alt,pantolon,yeşil,pamuk,M
+üst,hoodie,siyah,pamuk,L
+üst,triko kazak,haki yeşili,akrilik,M
+üst,triko kazak,gri,akrilik,L
+üst,sweat,lila,pamuk,M
+üst,gömlek,yeşil,pamuk,XXL
+üst,gömlek,krem,pamuk,L

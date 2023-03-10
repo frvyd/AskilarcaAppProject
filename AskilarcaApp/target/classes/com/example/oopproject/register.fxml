@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopproject.RegisterController">
+   <center>
+      <AnchorPane prefHeight="450.0" prefWidth="550.0" style="-fx-background-color: #F0E8F1;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="130.0" layoutY="181.0" text="Soy İsim" />
+            <TextField fx:id="registerFirstnameTextField" layoutX="130.0" layoutY="145.0" prefHeight="25.0" prefWidth="267.0" promptText="İsminizi giriniz." />
+            <Label layoutX="130.0" layoutY="128.0" text="İsim" />
+            <TextField fx:id="registerLastnameTextField" layoutX="130.0" layoutY="198.0" prefHeight="25.0" prefWidth="267.0" promptText="Soy isminizi giriniz." />
+            <Label layoutX="130.0" layoutY="230.0" text="Kullanıcı Adı" />
+            <TextField fx:id="registerUsernameTextField" layoutX="130.0" layoutY="247.0" prefHeight="25.0" prefWidth="267.0" promptText="Kullanıdı adınızı giriniz." />
+            <Label layoutX="130.0" layoutY="280.0" text="Şifre" />
+            <TextField fx:id="registerPasswordTextField" layoutX="130.0" layoutY="297.0" prefHeight="25.0" prefWidth="267.0" promptText="Şifre giriniz." />
+            <Button fx:id="registerRegisterButton" layoutX="292.0" layoutY="379.0" mnemonicParsing="false" onAction="#turnLoginPage" prefHeight="34.0" prefWidth="72.0" style="-fx-background-color: #9933CC;" text="Kayıt Ol" textFill="WHITE" />
+            <AnchorPane prefHeight="80.0" prefWidth="550.0" style="-fx-background-color: #9933CC;">
+               <children>
+                  <Label layoutX="147.0" layoutY="18.0" text="Yeni Kullanıcı Kayıt" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="85.0" layoutY="4.0" text="✔" textFill="WHITE">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label fx:id="invalidRegisterLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="127.0" layoutY="338.0" prefHeight="17.0" prefWidth="287.0" textFill="#410154" />
+            <Button fx:id="registerCancelButton" layoutX="178.0" layoutY="379.0" mnemonicParsing="false" onAction="#turnLoginPageCancel" prefHeight="34.0" prefWidth="72.0" style="-fx-background-color: #9933CC;" text="Geri" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
